@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { AnimatePresence } from 'framer-motion';
+
+import backgroundImg from './images/backgroundImg.png';
+
+import Home from './components/Home';
+import SignIn from './components/SignIn';
+import LogIn from './components/LogIn';
+import PassReminder from './components/PassReminder';
+import Button from './components/Button';
+
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="backgroundMain">
+        <img src={backgroundImg} alt="404" />
+        <AnimatePresence>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path='/SignIn' element={<SignIn />} />
+            <Route path='/LogIn' element={<LogIn />} />
+            <Route path='/PassReminder' element={<PassReminder />} />
+          </Routes>
+        </AnimatePresence>
+      </div>
+    </>
   );
 }
 
-export default App;
+export default App; 
