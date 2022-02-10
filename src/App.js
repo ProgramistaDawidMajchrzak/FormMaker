@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div className="backgroundMain">
-        <img src={backgroundImg} alt="404" />
+        <img className='right-home-img' src={backgroundImg} alt="404" />
         <AnimatePresence>
           <Routes>
             <Route index element={<Home />} />

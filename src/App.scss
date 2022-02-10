@@ -5,7 +5,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    // font-family: Helvetica Neue;
+    font-family: Helvetica;
 }
 
 .backgroundMain {
@@ -14,37 +14,234 @@ body {
     position: relative;
     background: linear-gradient(165deg, #FFE97F, #FFAA00);
 
-    img {
+    .right-home-img {
         height: 110%;
         position: absolute;
         right: -60px;
         top: -20px;
     }
 
-    .container {
-        width: 700px;
+    .home-container {
+        width: 600px;
         height: 100vh;
         position: absolute;
         left: 100px;
+
+        .authorization {
+            width: auto;
+            height: 50px;
+            position: absolute;
+            right: 0;
+            top: 25px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .languages {
+                display: flex;
+                height: auto;
+
+                img {
+                    height: 14px;
+                    width: auto;
+                    margin-right: 8px;
+                }
+            }
+
+            .logIn-button {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+                color: #372B2B;
+                margin: 0 10px 0 20px;
+            }
+        }
+
+        h2 {
+            font-size: 68px;
+            margin-bottom: 0;
+        }
+
+        h5 {
+            font-size: 24px;
+            margin: 0;
+            margin-left: 3px;
+        }
+
+        .tutorial-button {
+            text-decoration: none;
+            color: #372B2B;
+            font-size: 10px;
+            margin-left: 25px;
+        }
+
+        .home-button {
+            margin-top: 10px;
+        }
+
+        .form-home-img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            bottom: -50px;
+        }
+    }
+
+    .signIn-container {
+        width: 600px;
+        height: 100vh;
+        position: absolute;
+        left: 100px;
+
+        .signIn-box {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 380px;
+            background-color: #FFE35C;
+            border: 2px solid #372B2B;
+            border-radius: 6px;
+            box-shadow: 2px 2px 6px .5px #0000007a;
+
+            h3 {
+                margin: 20px 0 0 40px;
+                font-size: 38px;
+            }
+
+            h5 {
+                margin: 0 0 0 40px;
+            }
+
+            input[type=password],
+            input[type=email] {
+                display: block;
+                margin: 10px 0 0 40px;
+                background-color: transparent;
+                width: 240px;
+                border: none;
+                border-bottom: 1.5px solid black;
+                padding: 10px 0;
+                outline: none;
+
+                &::placeholder {
+                    color: #372B2B;
+                    font-weight: 400;
+                }
+            }
+
+            .login-btn {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+                color: #372B2B;
+                display: block;
+                margin: 20px 0 0 40px;
+            }
+        }
+    }
+
+    .login-container {
+        width: 600px;
+        height: 100vh;
+        position: absolute;
+        left: 100px;
+
+        .login-box {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 350px;
+            background-color: #FFE35C;
+            border: 2px solid #372B2B;
+            border-radius: 6px;
+            box-shadow: 2px 2px 6px .5px #0000007a;
+
+            h3 {
+                margin: 20px 0 0 40px;
+                font-size: 38px;
+            }
+
+            input[type=password],
+            input[type=email] {
+                display: block;
+                margin: 10px 0 0 40px;
+                background-color: transparent;
+                width: 240px;
+                border: none;
+                border-bottom: 1.5px solid black;
+                padding: 10px 0;
+                outline: none;
+
+                &::placeholder {
+                    color: #372B2B;
+                    font-weight: 400;
+                }
+            }
+
+            .login-btns {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+                color: #372B2B;
+                display: block;
+                margin: 20px 0 0 40px;
+            }
+
+            .notuser-btn {
+                margin: 5px 0 0 40px;
+            }
+        }
+    }
+
+    .reminder-container {
+        width: 600px;
+        height: 100vh;
+        position: absolute;
+        left: 100px;
+
+        .reminder-box {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 190px;
+            background-color: #FFE35C;
+            border: 2px solid #372B2B;
+            border-radius: 6px;
+            box-shadow: 2px 2px 6px .5px #0000007a;
+
+            input[type=email] {
+                display: block;
+                margin: 10px 0 10px 40px;
+                background-color: transparent;
+                width: 240px;
+                border: none;
+                border-bottom: 1.5px solid black;
+                padding: 10px 0;
+                outline: none;
+            }
+        }
     }
 
     .main-button {
         position: relative;
         cursor: pointer;
-        margin: 120px;
         background-color: #FFE35C;
         border: 2px solid #372B2B;
         border-radius: 6px;
-        padding: 0 24px;
         height: 28px;
         font-weight: bold;
+        font-size: 12px;
         text-transform: uppercase;
-        box-shadow: 2px 2px 6px .5px #524343;
+        box-shadow: 2px 2px 6px .5px #0000007a;
     }
 
-    // .home-button {
-    //     
-    // }
+
 
     // .login-button {
     //     
