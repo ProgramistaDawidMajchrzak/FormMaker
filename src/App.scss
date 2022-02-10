@@ -246,6 +246,49 @@ body {
         }
     }
 
+    .tutorial-container {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        background: linear-gradient(165deg, #FFE97F, #FFAA00);
+
+        img {
+            position: absolute;
+            right: -150px;
+            top: 240px;
+        }
+
+        .tutorial-box {
+            width: 50%;
+            height: 100vh;
+            position: absolute;
+            left: 100px;
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: auto;
+                margin-top: 35px;
+
+                .logIn-btn {
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: #372B2B;
+                    margin: 0 10px 0 20px;
+                }
+            }
+
+            h3 {
+                font-size: 60px;
+            }
+        }
+    }
+
     .main-button {
         position: relative;
         cursor: pointer;

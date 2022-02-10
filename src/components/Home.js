@@ -35,7 +35,7 @@ export default function Home() {
                     <li>find out what your clients think</li>
                     <li>see specialized data</li>
                 </ul>
-                <Link className='tutorial-button' to='/tutorial'>@ see how it's working</Link>
+                <Link className='tutorial-button' to='/Tutorial'>@ see how it's working</Link>
                 <br />
                 <Button value='get started' padding='0 22px' margin='10px 0 0 25px ' />
                 <img className='form-home-img' src={formImg} alt="404" />

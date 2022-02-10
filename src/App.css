@@ -322,6 +322,55 @@ body {
   font-weight: 400;
 }
 
+.backgroundMain .tutorial-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(165deg, #FFE97F, #FFAA00);
+}
+
+.backgroundMain .tutorial-container img {
+  position: absolute;
+  right: -150px;
+  top: 240px;
+}
+
+.backgroundMain .tutorial-container .tutorial-box {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 100px;
+}
+
+.backgroundMain .tutorial-container .tutorial-box .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  margin-top: 35px;
+}
+
+.backgroundMain .tutorial-container .tutorial-box .flex .logIn-btn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #372B2B;
+  margin: 0 10px 0 20px;
+}
+
+.backgroundMain .tutorial-container .tutorial-box h3 {
+  font-size: 60px;
+}
+
 .backgroundMain .main-button {
   position: relative;
   cursor: pointer;

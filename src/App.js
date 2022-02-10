@@ -8,7 +8,7 @@ import Home from './components/Home';
 import SignIn from './components/SignIn';
 import LogIn from './components/LogIn';
 import PassReminder from './components/PassReminder';
-import Button from './components/Button';
+import Tutorial from './components/Tutorial'
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -23,6 +23,7 @@ function App() {
             <Route path='/SignIn' element={<SignIn />} />
             <Route path='/LogIn' element={<LogIn />} />
             <Route path='/PassReminder' element={<PassReminder />} />
+            <Route path='/Tutorial' element={<Tutorial />} />
           </Routes>
         </AnimatePresence>
       </div>
