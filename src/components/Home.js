@@ -24,7 +24,7 @@ export default function Home() {
                     </div>
                     <Link className='logIn-button' to='LogIn'>LOG IN</Link>
                     <Link to='SignIn'>
-                        <Button value='sign in' padding='0 10px' />
+                        <Button value='sign in' padding='0 14px' />
                     </Link>
 
                 </div>
@@ -32,12 +32,12 @@ export default function Home() {
                 <h5>practical forms for your company for free</h5>
                 <ul>
                     <li>prepare questionnaire</li>
-                    <li>fin out what your clients think</li>
+                    <li>find out what your clients think</li>
                     <li>see specialized data</li>
                 </ul>
                 <Link className='tutorial-button' to='/tutorial'>@ see how it's working</Link>
                 <br />
-                <Button value='get started' padding='0 20px' margin='10px 0 0 25px ' />
+                <Button value='get started' padding='0 22px' margin='10px 0 0 25px ' />
                 <img className='form-home-img' src={formImg} alt="404" />
 
             </motion.div>

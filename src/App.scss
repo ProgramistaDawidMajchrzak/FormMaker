@@ -22,7 +22,7 @@ body {
     }
 
     .home-container {
-        width: 600px;
+        width: 50%;
         height: 100vh;
         position: absolute;
         left: 100px;
@@ -42,7 +42,7 @@ body {
                 height: auto;
 
                 img {
-                    height: 14px;
+                    height: 18px;
                     width: auto;
                     margin-right: 8px;
                 }
@@ -51,27 +51,33 @@ body {
             .logIn-button {
                 text-decoration: none;
                 font-weight: bold;
-                font-size: 12px;
+                font-size: 16px;
                 color: #372B2B;
                 margin: 0 10px 0 20px;
             }
         }
 
         h2 {
-            font-size: 68px;
+            font-size: 110px;
             margin-bottom: 0;
         }
 
         h5 {
-            font-size: 24px;
+            font-size: 40px;
             margin: 0;
             margin-left: 3px;
+        }
+
+        ul {
+            li {
+                font-size: 30px;
+            }
         }
 
         .tutorial-button {
             text-decoration: none;
             color: #372B2B;
-            font-size: 10px;
+            font-size: 16px;
             margin-left: 25px;
         }
 
@@ -88,7 +94,7 @@ body {
     }
 
     .signIn-container {
-        width: 600px;
+        width: 50%;
         height: 100vh;
         position: absolute;
         left: 100px;
@@ -98,52 +104,55 @@ body {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 400px;
-            height: 380px;
+            width: 600px;
+            height: 460px;
             background-color: #FFE35C;
             border: 2px solid #372B2B;
             border-radius: 6px;
             box-shadow: 2px 2px 6px .5px #0000007a;
 
             h3 {
-                margin: 20px 0 0 40px;
-                font-size: 38px;
+                margin: 20px 0 0 50px;
+                font-size: 60px;
             }
 
             h5 {
-                margin: 0 0 0 40px;
+                font-size: 20px;
+                margin: 0 0 0 50px;
             }
 
             input[type=password],
             input[type=email] {
                 display: block;
-                margin: 10px 0 0 40px;
+                margin: 10px 0 0 50px;
                 background-color: transparent;
-                width: 240px;
+                width: 340px;
                 border: none;
-                border-bottom: 1.5px solid black;
+                border-bottom: 2px solid black;
                 padding: 10px 0;
                 outline: none;
+                font-size: 16px;
 
                 &::placeholder {
                     color: #372B2B;
                     font-weight: 400;
+                    font-size: 16px;
                 }
             }
 
             .login-btn {
                 text-decoration: none;
                 font-weight: bold;
-                font-size: 12px;
+                font-size: 16px;
                 color: #372B2B;
                 display: block;
-                margin: 20px 0 0 40px;
+                margin: 30px 0 0 50px;
             }
         }
     }
 
     .login-container {
-        width: 600px;
+        width: 50%;
         height: 100vh;
         position: absolute;
         left: 100px;
@@ -153,30 +162,32 @@ body {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 400px;
-            height: 350px;
+            width: 600px;
+            height: 420px;
             background-color: #FFE35C;
             border: 2px solid #372B2B;
             border-radius: 6px;
             box-shadow: 2px 2px 6px .5px #0000007a;
 
             h3 {
-                margin: 20px 0 0 40px;
-                font-size: 38px;
+                margin: 20px 0 0 50px;
+                font-size: 60px;
             }
 
             input[type=password],
             input[type=email] {
                 display: block;
-                margin: 10px 0 0 40px;
+                margin: 10px 0 0 50px;
                 background-color: transparent;
-                width: 240px;
+                width: 340px;
                 border: none;
-                border-bottom: 1.5px solid black;
+                border-bottom: 2px solid black;
                 padding: 10px 0;
                 outline: none;
+                font-size: 16px;
 
                 &::placeholder {
+                    font-size: 16px;
                     color: #372B2B;
                     font-weight: 400;
                 }
@@ -185,20 +196,20 @@ body {
             .login-btns {
                 text-decoration: none;
                 font-weight: bold;
-                font-size: 12px;
+                font-size: 16px;
                 color: #372B2B;
                 display: block;
-                margin: 20px 0 0 40px;
+                margin: 30px 0 0 50px;
             }
 
             .notuser-btn {
-                margin: 5px 0 0 40px;
+                margin: 5px 0 0 50px;
             }
         }
     }
 
     .reminder-container {
-        width: 600px;
+        width: 50%;
         height: 100vh;
         position: absolute;
         left: 100px;
@@ -208,8 +219,8 @@ body {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 400px;
-            height: 190px;
+            width: 600px;
+            height: 210px;
             background-color: #FFE35C;
             border: 2px solid #372B2B;
             border-radius: 6px;
@@ -217,13 +228,20 @@ body {
 
             input[type=email] {
                 display: block;
-                margin: 10px 0 10px 40px;
+                margin: 20px 0 10px 50px;
                 background-color: transparent;
-                width: 240px;
+                width: 340px;
                 border: none;
-                border-bottom: 1.5px solid black;
+                border-bottom: 2px solid black;
                 padding: 10px 0;
+                font-size: 16px;
                 outline: none;
+
+                &::placeholder {
+                    font-size: 16px;
+                    color: #372B2B;
+                    font-weight: 400;
+                }
             }
         }
     }
@@ -234,24 +252,10 @@ body {
         background-color: #FFE35C;
         border: 2px solid #372B2B;
         border-radius: 6px;
-        height: 28px;
+        height: 32px;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 16px;
         text-transform: uppercase;
         box-shadow: 2px 2px 6px .5px #0000007a;
     }
-
-
-
-    // .login-button {
-    //     
-    // }
-
-    // .signin-button {
-    //     
-    // }
-
-    // .passreminder-button {
-    //     
-    // }
 }

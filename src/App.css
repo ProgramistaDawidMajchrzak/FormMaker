@@ -24,7 +24,7 @@ body {
 }
 
 .backgroundMain .home-container {
-  width: 600px;
+  width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
@@ -55,7 +55,7 @@ body {
 }
 
 .backgroundMain .home-container .authorization .languages img {
-  height: 14px;
+  height: 18px;
   width: auto;
   margin-right: 8px;
 }
@@ -63,26 +63,30 @@ body {
 .backgroundMain .home-container .authorization .logIn-button {
   text-decoration: none;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   color: #372B2B;
   margin: 0 10px 0 20px;
 }
 
 .backgroundMain .home-container h2 {
-  font-size: 68px;
+  font-size: 110px;
   margin-bottom: 0;
 }
 
 .backgroundMain .home-container h5 {
-  font-size: 24px;
+  font-size: 40px;
   margin: 0;
   margin-left: 3px;
+}
+
+.backgroundMain .home-container ul li {
+  font-size: 30px;
 }
 
 .backgroundMain .home-container .tutorial-button {
   text-decoration: none;
   color: #372B2B;
-  font-size: 10px;
+  font-size: 16px;
   margin-left: 25px;
 }
 
@@ -98,7 +102,7 @@ body {
 }
 
 .backgroundMain .signIn-container {
-  width: 600px;
+  width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
@@ -110,8 +114,8 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 400px;
-  height: 380px;
+  width: 600px;
+  height: 460px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
@@ -120,61 +124,67 @@ body {
 }
 
 .backgroundMain .signIn-container .signIn-box h3 {
-  margin: 20px 0 0 40px;
-  font-size: 38px;
+  margin: 20px 0 0 50px;
+  font-size: 60px;
 }
 
 .backgroundMain .signIn-container .signIn-box h5 {
-  margin: 0 0 0 40px;
+  font-size: 20px;
+  margin: 0 0 0 50px;
 }
 
 .backgroundMain .signIn-container .signIn-box input[type=password],
 .backgroundMain .signIn-container .signIn-box input[type=email] {
   display: block;
-  margin: 10px 0 0 40px;
+  margin: 10px 0 0 50px;
   background-color: transparent;
-  width: 240px;
+  width: 340px;
   border: none;
-  border-bottom: 1.5px solid black;
+  border-bottom: 2px solid black;
   padding: 10px 0;
   outline: none;
+  font-size: 16px;
 }
 
 .backgroundMain .signIn-container .signIn-box input[type=password]::-webkit-input-placeholder,
 .backgroundMain .signIn-container .signIn-box input[type=email]::-webkit-input-placeholder {
   color: #372B2B;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .backgroundMain .signIn-container .signIn-box input[type=password]:-ms-input-placeholder,
 .backgroundMain .signIn-container .signIn-box input[type=email]:-ms-input-placeholder {
   color: #372B2B;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .backgroundMain .signIn-container .signIn-box input[type=password]::-ms-input-placeholder,
 .backgroundMain .signIn-container .signIn-box input[type=email]::-ms-input-placeholder {
   color: #372B2B;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .backgroundMain .signIn-container .signIn-box input[type=password]::placeholder,
 .backgroundMain .signIn-container .signIn-box input[type=email]::placeholder {
   color: #372B2B;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .backgroundMain .signIn-container .signIn-box .login-btn {
   text-decoration: none;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   color: #372B2B;
   display: block;
-  margin: 20px 0 0 40px;
+  margin: 30px 0 0 50px;
 }
 
 .backgroundMain .login-container {
-  width: 600px;
+  width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
@@ -186,8 +196,8 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 400px;
-  height: 350px;
+  width: 600px;
+  height: 420px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
@@ -196,42 +206,47 @@ body {
 }
 
 .backgroundMain .login-container .login-box h3 {
-  margin: 20px 0 0 40px;
-  font-size: 38px;
+  margin: 20px 0 0 50px;
+  font-size: 60px;
 }
 
 .backgroundMain .login-container .login-box input[type=password],
 .backgroundMain .login-container .login-box input[type=email] {
   display: block;
-  margin: 10px 0 0 40px;
+  margin: 10px 0 0 50px;
   background-color: transparent;
-  width: 240px;
+  width: 340px;
   border: none;
-  border-bottom: 1.5px solid black;
+  border-bottom: 2px solid black;
   padding: 10px 0;
   outline: none;
+  font-size: 16px;
 }
 
 .backgroundMain .login-container .login-box input[type=password]::-webkit-input-placeholder,
 .backgroundMain .login-container .login-box input[type=email]::-webkit-input-placeholder {
+  font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
 
 .backgroundMain .login-container .login-box input[type=password]:-ms-input-placeholder,
 .backgroundMain .login-container .login-box input[type=email]:-ms-input-placeholder {
+  font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
 
 .backgroundMain .login-container .login-box input[type=password]::-ms-input-placeholder,
 .backgroundMain .login-container .login-box input[type=email]::-ms-input-placeholder {
+  font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
 
 .backgroundMain .login-container .login-box input[type=password]::placeholder,
 .backgroundMain .login-container .login-box input[type=email]::placeholder {
+  font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
@@ -239,18 +254,18 @@ body {
 .backgroundMain .login-container .login-box .login-btns {
   text-decoration: none;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   color: #372B2B;
   display: block;
-  margin: 20px 0 0 40px;
+  margin: 30px 0 0 50px;
 }
 
 .backgroundMain .login-container .login-box .notuser-btn {
-  margin: 5px 0 0 40px;
+  margin: 5px 0 0 50px;
 }
 
 .backgroundMain .reminder-container {
-  width: 600px;
+  width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
@@ -262,8 +277,8 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 400px;
-  height: 190px;
+  width: 600px;
+  height: 210px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
@@ -273,13 +288,38 @@ body {
 
 .backgroundMain .reminder-container .reminder-box input[type=email] {
   display: block;
-  margin: 10px 0 10px 40px;
+  margin: 20px 0 10px 50px;
   background-color: transparent;
-  width: 240px;
+  width: 340px;
   border: none;
-  border-bottom: 1.5px solid black;
+  border-bottom: 2px solid black;
   padding: 10px 0;
+  font-size: 16px;
   outline: none;
+}
+
+.backgroundMain .reminder-container .reminder-box input[type=email]::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #372B2B;
+  font-weight: 400;
+}
+
+.backgroundMain .reminder-container .reminder-box input[type=email]:-ms-input-placeholder {
+  font-size: 16px;
+  color: #372B2B;
+  font-weight: 400;
+}
+
+.backgroundMain .reminder-container .reminder-box input[type=email]::-ms-input-placeholder {
+  font-size: 16px;
+  color: #372B2B;
+  font-weight: 400;
+}
+
+.backgroundMain .reminder-container .reminder-box input[type=email]::placeholder {
+  font-size: 16px;
+  color: #372B2B;
+  font-weight: 400;
 }
 
 .backgroundMain .main-button {
@@ -288,9 +328,9 @@ body {
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
-  height: 28px;
+  height: 32px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   -webkit-box-shadow: 2px 2px 6px .5px #0000007a;
           box-shadow: 2px 2px 6px .5px #0000007a;

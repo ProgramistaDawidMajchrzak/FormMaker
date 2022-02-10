@@ -14,10 +14,10 @@ export default function PassReminder() {
 
                 <div className="reminder-box">
                     <Link to='/'>
-                        <Button value='back' padding='0 10px' margin='30px 0 0 40px' />
+                        <Button value='back' padding='0 14px' margin='30px 0 0 50px' />
                     </Link>
                     <input type="email" placeholder='ENTER YOUR EMAIL' />
-                    <Button value='send' padding='0 10px' margin='10px 0 30px 40px' />
+                    <Button value='send' padding='0 14px' margin='20px 0 30px 50px' />
                 </div>
 
             </motion.div>

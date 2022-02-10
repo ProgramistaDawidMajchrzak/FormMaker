@@ -13,7 +13,7 @@ export default function SignIn() {
                 className="signIn-container">
                 <div className="signIn-box">
                     <Link to='/'>
-                        <Button value='back' padding='0 10px' margin='30px 0 0 40px' />
+                        <Button value='back' padding='0 14px' margin='30px 0 0 50px' />
                     </Link>
                     <h3>SIGN IN</h3>
                     <h5>IT'S FOR FREE!</h5>
@@ -22,7 +22,7 @@ export default function SignIn() {
                     <input type="password" placeholder='ENTER YOUR PASSWORD' />
                     <Link className='login-btn' to='/logIn'>ALREADY SIGN IN?</Link>
                     <Link to='/'>
-                        <Button margin='10px 0 0 40px' value='sign in' />
+                        <Button padding='0 14px' margin='20px 0 0 50px' value='sign in' />
                     </Link>
                 </div>
             </motion.div>

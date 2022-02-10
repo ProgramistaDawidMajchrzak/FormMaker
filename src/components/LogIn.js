@@ -13,7 +13,7 @@ export default function LogIn() {
                 className="login-container">
                 <div className="login-box">
                     <Link to='/'>
-                        <Button value='back' padding='0 10px' margin='30px 0 0 40px' />
+                        <Button value='back' padding='0 14px' margin='30px 0 0 50px' />
                     </Link>
                     <h3>LOG IN</h3>
                     <input type="email" placeholder='ENTER YOUR EMAIL' />
@@ -21,7 +21,7 @@ export default function LogIn() {
                     <Link className='login-btns' to='/PassReminder'>FORGOT PASSWORD?</Link>
                     <Link className='login-btns notuser-btn' to='/SignIn'>NOT A USER?</Link>
                     <Link to='/'>
-                        <Button margin='20px 0 0 40px' padding='0 10px' value='log in' />
+                        <Button margin='20px 0 0 50px' padding='0 14px' value='log in' />
                     </Link>
                 </div>
             </motion.div>
