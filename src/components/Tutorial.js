@@ -27,6 +27,9 @@ export default function Tutorial() {
                     </div>
                 </div>
                 <h3>How it's working?</h3>
+                <Link to='/ConfigPanel'>
+                    <Button value='get started' padding='0 22px' />
+                </Link>
             </div>
 
         </motion.div>

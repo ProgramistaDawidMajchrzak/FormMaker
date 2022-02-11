@@ -8,7 +8,8 @@ import Home from './components/Home';
 import SignIn from './components/SignIn';
 import LogIn from './components/LogIn';
 import PassReminder from './components/PassReminder';
-import Tutorial from './components/Tutorial'
+import Tutorial from './components/Tutorial';
+import ConfigPanel from './components/ConfigPanel';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/LogIn' element={<LogIn />} />
             <Route path='/PassReminder' element={<PassReminder />} />
             <Route path='/Tutorial' element={<Tutorial />} />
+            <Route path='/ConfigPanel' element={<ConfigPanel />} />
           </Routes>
         </AnimatePresence>
       </div>

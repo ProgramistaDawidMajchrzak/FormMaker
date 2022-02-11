@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -15,51 +14,37 @@ body {
   position: relative;
   background: linear-gradient(165deg, #FFE97F, #FFAA00);
 }
-
 .backgroundMain .right-home-img {
   height: 110%;
   position: absolute;
   right: -60px;
   top: -20px;
 }
-
 .backgroundMain .home-container {
   width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
 }
-
 .backgroundMain .home-container .authorization {
   width: auto;
   height: 50px;
   position: absolute;
   right: 0;
   top: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-
 .backgroundMain .home-container .authorization .languages {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: auto;
 }
-
 .backgroundMain .home-container .authorization .languages img {
   height: 18px;
   width: auto;
   margin-right: 8px;
 }
-
 .backgroundMain .home-container .authorization .logIn-button {
   text-decoration: none;
   font-weight: bold;
@@ -67,72 +52,59 @@ body {
   color: #372B2B;
   margin: 0 10px 0 20px;
 }
-
 .backgroundMain .home-container h2 {
   font-size: 110px;
   margin-bottom: 0;
 }
-
 .backgroundMain .home-container h5 {
   font-size: 40px;
   margin: 0;
   margin-left: 3px;
 }
-
 .backgroundMain .home-container ul li {
   font-size: 30px;
 }
-
 .backgroundMain .home-container .tutorial-button {
   text-decoration: none;
   color: #372B2B;
   font-size: 16px;
   margin-left: 25px;
 }
-
 .backgroundMain .home-container .home-button {
   margin-top: 10px;
 }
-
 .backgroundMain .home-container .form-home-img {
   width: 100%;
   height: auto;
   position: relative;
   bottom: -50px;
 }
-
 .backgroundMain .signIn-container {
   width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
 }
-
 .backgroundMain .signIn-container .signIn-box {
   position: relative;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 600px;
   height: 460px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
-  -webkit-box-shadow: 2px 2px 6px .5px #0000007a;
-          box-shadow: 2px 2px 6px .5px #0000007a;
+  box-shadow: 2px 2px 6px 0.5px #0000007a;
 }
-
 .backgroundMain .signIn-container .signIn-box h3 {
   margin: 20px 0 0 50px;
   font-size: 60px;
 }
-
 .backgroundMain .signIn-container .signIn-box h5 {
   font-size: 20px;
   margin: 0 0 0 50px;
 }
-
 .backgroundMain .signIn-container .signIn-box input[type=password],
 .backgroundMain .signIn-container .signIn-box input[type=email] {
   display: block;
@@ -145,35 +117,22 @@ body {
   outline: none;
   font-size: 16px;
 }
-
-.backgroundMain .signIn-container .signIn-box input[type=password]::-webkit-input-placeholder,
-.backgroundMain .signIn-container .signIn-box input[type=email]::-webkit-input-placeholder {
+.backgroundMain .signIn-container .signIn-box input[type=password]::-moz-placeholder, .backgroundMain .signIn-container .signIn-box input[type=email]::-moz-placeholder {
   color: #372B2B;
   font-weight: 400;
   font-size: 16px;
 }
-
-.backgroundMain .signIn-container .signIn-box input[type=password]:-ms-input-placeholder,
-.backgroundMain .signIn-container .signIn-box input[type=email]:-ms-input-placeholder {
+.backgroundMain .signIn-container .signIn-box input[type=password]:-ms-input-placeholder, .backgroundMain .signIn-container .signIn-box input[type=email]:-ms-input-placeholder {
   color: #372B2B;
   font-weight: 400;
   font-size: 16px;
 }
-
-.backgroundMain .signIn-container .signIn-box input[type=password]::-ms-input-placeholder,
-.backgroundMain .signIn-container .signIn-box input[type=email]::-ms-input-placeholder {
-  color: #372B2B;
-  font-weight: 400;
-  font-size: 16px;
-}
-
 .backgroundMain .signIn-container .signIn-box input[type=password]::placeholder,
 .backgroundMain .signIn-container .signIn-box input[type=email]::placeholder {
   color: #372B2B;
   font-weight: 400;
   font-size: 16px;
 }
-
 .backgroundMain .signIn-container .signIn-box .login-btn {
   text-decoration: none;
   font-weight: bold;
@@ -182,34 +141,28 @@ body {
   display: block;
   margin: 30px 0 0 50px;
 }
-
 .backgroundMain .login-container {
   width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
 }
-
 .backgroundMain .login-container .login-box {
   position: relative;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 600px;
   height: 420px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
-  -webkit-box-shadow: 2px 2px 6px .5px #0000007a;
-          box-shadow: 2px 2px 6px .5px #0000007a;
+  box-shadow: 2px 2px 6px 0.5px #0000007a;
 }
-
 .backgroundMain .login-container .login-box h3 {
   margin: 20px 0 0 50px;
   font-size: 60px;
 }
-
 .backgroundMain .login-container .login-box input[type=password],
 .backgroundMain .login-container .login-box input[type=email] {
   display: block;
@@ -222,35 +175,22 @@ body {
   outline: none;
   font-size: 16px;
 }
-
-.backgroundMain .login-container .login-box input[type=password]::-webkit-input-placeholder,
-.backgroundMain .login-container .login-box input[type=email]::-webkit-input-placeholder {
+.backgroundMain .login-container .login-box input[type=password]::-moz-placeholder, .backgroundMain .login-container .login-box input[type=email]::-moz-placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
-.backgroundMain .login-container .login-box input[type=password]:-ms-input-placeholder,
-.backgroundMain .login-container .login-box input[type=email]:-ms-input-placeholder {
+.backgroundMain .login-container .login-box input[type=password]:-ms-input-placeholder, .backgroundMain .login-container .login-box input[type=email]:-ms-input-placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
-.backgroundMain .login-container .login-box input[type=password]::-ms-input-placeholder,
-.backgroundMain .login-container .login-box input[type=email]::-ms-input-placeholder {
-  font-size: 16px;
-  color: #372B2B;
-  font-weight: 400;
-}
-
 .backgroundMain .login-container .login-box input[type=password]::placeholder,
 .backgroundMain .login-container .login-box input[type=email]::placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
 .backgroundMain .login-container .login-box .login-btns {
   text-decoration: none;
   font-weight: bold;
@@ -259,33 +199,27 @@ body {
   display: block;
   margin: 30px 0 0 50px;
 }
-
 .backgroundMain .login-container .login-box .notuser-btn {
   margin: 5px 0 0 50px;
 }
-
 .backgroundMain .reminder-container {
   width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
 }
-
 .backgroundMain .reminder-container .reminder-box {
   position: relative;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 600px;
   height: 210px;
   background-color: #FFE35C;
   border: 2px solid #372B2B;
   border-radius: 6px;
-  -webkit-box-shadow: 2px 2px 6px .5px #0000007a;
-          box-shadow: 2px 2px 6px .5px #0000007a;
+  box-shadow: 2px 2px 6px 0.5px #0000007a;
 }
-
 .backgroundMain .reminder-container .reminder-box input[type=email] {
   display: block;
   margin: 20px 0 10px 50px;
@@ -297,31 +231,21 @@ body {
   font-size: 16px;
   outline: none;
 }
-
-.backgroundMain .reminder-container .reminder-box input[type=email]::-webkit-input-placeholder {
+.backgroundMain .reminder-container .reminder-box input[type=email]::-moz-placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
 .backgroundMain .reminder-container .reminder-box input[type=email]:-ms-input-placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
-.backgroundMain .reminder-container .reminder-box input[type=email]::-ms-input-placeholder {
-  font-size: 16px;
-  color: #372B2B;
-  font-weight: 400;
-}
-
 .backgroundMain .reminder-container .reminder-box input[type=email]::placeholder {
   font-size: 16px;
   color: #372B2B;
   font-weight: 400;
 }
-
 .backgroundMain .tutorial-container {
   width: 100%;
   height: 100vh;
@@ -331,34 +255,24 @@ body {
   z-index: 1;
   background: linear-gradient(165deg, #FFE97F, #FFAA00);
 }
-
 .backgroundMain .tutorial-container img {
   position: absolute;
   right: -150px;
   top: 240px;
 }
-
 .backgroundMain .tutorial-container .tutorial-box {
   width: 50%;
   height: 100vh;
   position: absolute;
   left: 100px;
 }
-
 .backgroundMain .tutorial-container .tutorial-box .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: auto;
   margin-top: 35px;
 }
-
 .backgroundMain .tutorial-container .tutorial-box .flex .logIn-btn {
   text-decoration: none;
   font-weight: bold;
@@ -366,11 +280,9 @@ body {
   color: #372B2B;
   margin: 0 10px 0 20px;
 }
-
 .backgroundMain .tutorial-container .tutorial-box h3 {
   font-size: 60px;
 }
-
 .backgroundMain .main-button {
   position: relative;
   cursor: pointer;
@@ -381,7 +293,29 @@ body {
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
-  -webkit-box-shadow: 2px 2px 6px .5px #0000007a;
-          box-shadow: 2px 2px 6px .5px #0000007a;
+  box-shadow: 2px 2px 6px 0.5px #0000007a;
 }
-/*# sourceMappingURL=App.css.map */
+@media screen and (max-width: 1400px) {
+  .backgroundMain .home-container h2 {
+    font-size: 90px;
+  }
+  .backgroundMain .home-container h5 {
+    font-size: 30px;
+  }
+  .backgroundMain .home-container ul {
+    margin: 5px;
+  }
+  .backgroundMain .home-container ul li {
+    font-size: 20px;
+  }
+  .backgroundMain .home-container .tutorial-button {
+    font-size: 12px;
+  }
+  .backgroundMain .tutorial-container img {
+    top: 140px;
+    width: 650px;
+  }
+  .backgroundMain .tutorial-container .tutorial-box h3 {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=App.css.map */

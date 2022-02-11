@@ -37,7 +37,9 @@ export default function Home() {
                 </ul>
                 <Link className='tutorial-button' to='/Tutorial'>@ see how it's working</Link>
                 <br />
-                <Button value='get started' padding='0 22px' margin='10px 0 0 25px ' />
+                <Link to='/ConfigPanel'>
+                    <Button value='get started' padding='0 22px' margin='10px 0 0 25px ' />
+                </Link>
                 <img className='form-home-img' src={formImg} alt="404" />
 
             </motion.div>
