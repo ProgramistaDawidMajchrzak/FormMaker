@@ -283,6 +283,40 @@ body {
 .backgroundMain .tutorial-container .tutorial-box h3 {
   font-size: 60px;
 }
+.backgroundMain .config-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(165deg, #FFE97F, #FFAA00);
+}
+.backgroundMain .config-container .config-box {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 100px;
+}
+.backgroundMain .config-container .config-box h3 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+.backgroundMain .config-container .config-box .flex {
+  width: 420px;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+.backgroundMain .config-container .config-box .flex img {
+  width: 100px;
+  padding: 2.5px;
+  height: auto;
+  cursor: pointer;
+}
+.backgroundMain .config-container .config-box .create-btn {
+  display: block;
+}
 .backgroundMain .main-button {
   position: relative;
   cursor: pointer;
